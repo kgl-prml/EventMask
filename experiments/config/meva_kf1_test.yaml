@@ -1,0 +1,15 @@
+DATASET:
+  DATAROOT: ''
+  CLIP_LEN: 8
+  CLIP_STRIDE: 4
+  TEST_SPLIT_NAME: ''
+  
+MODEL:
+  PRETRAINED_ENCODER_WEIGHTS: "/workspace/EventMaskInfer/experiments/ckpt/rgb_charades.pt"
+
+TEST:
+  BATCH_SIZE: 1
+
+SAVE_DIR: ""
+WEIGHTS: "/workspace/EventMaskInfer/experiments/ckpt/mask_model_0222.weights"
+NUM_WORKERS: 8
